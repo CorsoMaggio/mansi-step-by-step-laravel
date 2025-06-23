@@ -190,4 +190,3 @@ Route::delete('/books/{book}', [BookController::class, 'destroy'])
 
 6. View: In ultimo, creare la vista edit per gestire il form di modifica
 7. Tutte le rotte pososno essere sostituite da: ```php Route::resource('books', BookController::class);```
-8. Extra: Esiste un comando all in one per generare tutto: ``` php artisan make:model Author -mcrR ```

@@ -7,8 +7,6 @@
 3. Con il terminale sottomano, posizionati nella cartella generale dove andrai a mettere tutti i tuoi progetti
 4. Lancia il comando `git clone  https://github.com/laravel/laravel.git`
 5. Attendi la fine dell’installazione 
-6. Entra nel progetto appena creato con `cd nome-progetto`
-7. Apri Visual studio con `code .`
 8. Se il progetto è tuo e devi continuare a lavorare,procedi con il punto 9
     1. Se NON devi continuare il con il progetto, rimuovi il file .git con `rm -fr .git` 
 9. Lancia il comando `composer install`

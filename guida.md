@@ -1,4 +1,25 @@
 # Step by Step
+
+## Installazione via Git Clone
+
+1. Vai al link della repository di github (ad Esempio https://github.com/laravel/laravel)
+2. Apri il pulsante verde **<> Code** e copia il link HTTPS https://github.com/laravel/laravel.git presente nel dropdown
+3. Con il terminale sottomano, posizionati nella cartella generale dove andrai a mettere tutti i tuoi progetti
+4. Lancia il comando `git clone  https://github.com/laravel/laravel.git`
+5. Attendi la fine dell’installazione 
+6. Entra nel progetto appena creato con `cd nome-progetto`
+7. Apri Visual studio con `code .`
+8. Se il progetto è tuo e devi continuare a lavorare,procedi con il punto 9
+    1. Se NON devi continuare il con il progetto, rimuovi il file .git con `rm -fr .git` 
+9. Lancia il comando `composer install`
+10. Lancia il comando `npm install`
+11. Successivamente, sempre nel progetto con il terminale aperto, lancia il comando di copia del file .env con `cp .env.example .env`. (Oppure fai copia e incolla dal progetto)
+12. Impostate il vostro db nel file .env
+13. Lancia il comando `php artisan key:generate` per generare la chiave
+14. Lancia il comando `php artisan migrate` per creare le tabelle
+15. Lancia in un nuovo terminale `php artisan serve`
+16. Lancia in un secondo nuovo terminale `npm run dev`
+
 ### Model e Migration
 1. Crea un nuovo progetto con `laravel new nome-progetto`
 2. Lancia `php artisan serve` in un nuovo terminale
